@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+
+    <div class="Fondito">
+        <h1 class="titulo">Mi Biografía</h1>
+        <form action="AltaContacto.php" method="POST" class="formulario" onsubmit="return validar();">
+           <h2 class="formulario-titulo">
+               Contacto 
+           </h2>
+           <div class="input-forms">
+               <input type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre"      class="input-nombre">
+               <input type="text" id="correo" name="correo" placeholder="Ingrese su Correo"     class="input-correo">
+               <input type="text" id="telefono" name="telefono" placeholder="Ingrese su Telefono"  class="input-telefono">
+               <input type="text" id="comentario" name="comentario" placeholder="Ingrese su comentario"  class="input-comentario">
+               <input type="submit" value="Enviar" class="botonsito">
+               
+           </div>
+        </form>
+        </div>
+        <script src="validacion.js"></script>
+    
+</body>
+</html>
